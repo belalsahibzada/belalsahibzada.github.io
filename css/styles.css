@@ -62,22 +62,26 @@ nav li a:hover{
 }
 
 .project{
-    position: absolute;
     padding-left: 2.5%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    right: 0;
+    left: 0;
+    margin: auto ;
+    
 }
 
 .card {
     font-family: 'Nunito', sans-serif;
     position: relative;
-    top: 1rem;
-    left: 75%;
+    top: 4rem;
     box-shadow: 0 8px 16px 0 rgba(252, 249, 249, 0.2);
     transition: 0.3s;
     color: rgb(233, 216, 216);
     border-radius: 15px;
     width: 95%;
+
 }
 .card h2 {
     text-align: center;
