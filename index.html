@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
-    <!-- full-size monitor style sheet--> 
+    <meta http-equiv='cache-control' content='no-cache'> 
+    <meta http-equiv='expires' content='0'> 
+    <meta http-equiv='pragma' content='no-cache'>
     <link href="css/styles.css" rel="stylesheet" type="text/css"> 
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="only screen and 
     (min-width:960px)"> 
@@ -18,16 +20,57 @@
 <body>
     <nav> 
         <!-- using a list to display the items and making them clickable using "a href"-->
-        <li><a href="pages/about.html"> About Me </a></li>
-        <li><a href="pages/projects.html">Projects</a></li>
+        <li><a href="#three"> About Me </a></li>
+        <li><a href="#two">Projects</a></li>
         <li><a href="/index.html">Home</a></li>
     </nav>
-    <div class="home">
-        <div id="title">Belal Sahibzada</div>
-    </div>
 
-    <footer>
-        <p> ©️ 2022 Belal Sahibzada </p>
-    </footer>
+    <div class="container">
+        <section id="one">
+        <div class="home">
+            <div id="belal">Belal</div>
+            <div id="sahibzada">Sahibzada</div>
+        </div>
+        </section>
+        <section id="two">
+            <div class="project">
+                <div class="card">
+                    <img src="../images/html.png" alt="HTML/CSS" style="width:100%">
+                    <div class="container">
+                      <h2> HTML & CSS </h2> 
+                      <p>・ Portfolio Website </p>
+                      <p>・ HTML 5 website with CSS and JavaScript </p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="../images/python.png" alt="HTML/CSS" style="width:100%">
+                    <div class="container">
+                      <h2> Python Reservation System </h2> 
+                      <p>・  Python Reservation System </p>
+                      <p>・ A small reservation system with fully functional GUI using Tkinter and SQLite3 </p>
+                      <p> ・Users can register/login and create/remove/edit reservations </p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="../images/nodejs.png" alt="HTML/CSS" style="width:100%">
+                    <div class="container">
+                      <h2> Node JS  </h2> 
+                      <p>・  Single Page Web Application  </p>
+                      <p>・ Using MongoDB as databse User can perform CRUD operations</p>
+                    </div>
+                  </div>
+                  
+        
+            </div>
+        </section>
+        <section id="three">
+                <h1>About Me</h1>
+        </section>
+    
+        
+    </div>
 </body>
+<footer>
+    <p> ©️ 2022 Belal Sahibzada </p>
+</footer>
 </html>

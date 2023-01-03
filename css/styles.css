@@ -1,37 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Oswald', sans-serif;
-    background: #252525;
+    background: #1b2f41;
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
-    border: 0
+    border: 0;
 }
 
-#title{
+html{
+    scroll-behavior: smooth;;
+}
+
+section{
+    height: 100vh;
+}
+.home{
     position: absolute;
     top: 38%;
-    right: 0;
     left: 0;
+    right: 0;
+    margin: auto;
     text-align: center;
+}
+
+#two { 
+    background-color: #ded8c6;
+}
+
+#three h1 { 
+    font-size: 75px;
+    position: relative;
+    color: #ded8c6;
+    text-align: center;
+    top: 3.5%;
+}
+
+#belal{
+    position: inherit;
+    right: 56%;
     color: rgb(233, 216, 216);
     font-size: 75px;
     font-weight: 1500;
-    text-shadow: 5px 2px 2px rgb(128, 109, 0), 6px 3px 3px rgb(124, 0, 128);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.5px #ded8c6;   
+}
+
+#sahibzada{
+    position: inherit;
+    right: 34%;
+    color: #ded8c6;
+    font-size: 75px;
+    font-weight: 1500;
     
 }
 
 footer{
     font-family: 'Nunito', sans-serif;
-    position: absolute;
-    top: 92%;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto;
+    position: relative;
     text-align: center;
+    bottom: 15px;
     color: rgb(233, 216, 216);
  }
 
@@ -52,12 +89,13 @@ nav li a{
     font-weight: 600;
     float: right;
     padding: 12px;
-    width: 31.5%;
+    width: 33.33%;
     text-align: center;
 }
 
 nav li a:hover{
-    background-color: purple;
+    background-color: #ded8c6;
+    color:#243d53;
     border-radius: 15px;
 }
 
@@ -76,11 +114,12 @@ nav li a:hover{
     font-family: 'Nunito', sans-serif;
     position: relative;
     top: 4rem;
-    box-shadow: 0 8px 16px 0 rgba(252, 249, 249, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    color: rgb(233, 216, 216);
+    color: #243d53;
     border-radius: 15px;
     width: 95%;
+    height: 75vh;
 
 }
 .card h2 {
@@ -91,7 +130,7 @@ nav li a:hover{
     padding: 1px 20px 1px 20px;
 }
 .card:hover {
-    box-shadow: 0 4px 8px 0 rgb(124, 0, 128);
+    box-shadow: 0 6px 8px 0 #243d53;
 }
 .card img {
     border-radius: 15px;
