@@ -24,14 +24,6 @@ html{
 section{
     height: 100vh;
 }
-.home{
-    position: absolute;
-    top: 38%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    text-align: center;
-}
 
 #two { 
     background-color: #ded8c6;
@@ -43,6 +35,15 @@ section{
     color: #ded8c6;
     text-align: center;
     top: 3.5%;
+}
+
+.home{
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
 }
 
 #belal{
@@ -57,11 +58,10 @@ section{
 
 #sahibzada{
     position: inherit;
-    right: 34%;
+    left: 45%;
     color: #ded8c6;
     font-size: 75px;
     font-weight: 1500;
-    
 }
 
 footer{
