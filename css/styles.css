@@ -37,6 +37,15 @@ section{
     top: 3.5%;
 }
 
+#three p { 
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    position: relative;
+    color: #ded8c6;
+    text-align: center;
+    top: 30%;
+}
+
 .home{
     position: absolute;
     top: 35%;

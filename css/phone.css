@@ -73,20 +73,20 @@ nav li a:hover{
 }
 
 .project{
-    position: inherit;
-    padding-left: 2.5%;
+    position: relative;
+    
 }
 
 .card {
     font-family: 'Nunito', sans-serif;
     position: relative;
     top: 1rem;
-    left: 12%;
+    right: 50%;
     box-shadow: 0 8px 16px 0 rgba(252, 249, 249, 0.2);
     transition: 0.3s;
-    color: rgb(233, 216, 216);
+    color: rgb(0, 0, 0);
     border-radius: 15px;
-    width: 75%;
+    width: 70%;
 }
 .card h2 {
     text-align: center;
@@ -96,12 +96,10 @@ nav li a:hover{
     padding: 1px 20px 1px 20px;
 }
 .card:hover {
-    box-shadow: 0 4px 8px 0 rgb(124, 0, 128);
+    box-shadow: 0 6px 8px 0 #243d53;
 }
 .card img {
     border-radius: 15px;
 }
-  
-
 
 
