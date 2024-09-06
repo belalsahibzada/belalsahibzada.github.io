@@ -1,0 +1,23 @@
+html {
+    background-color: #17181E;
+    font-family: monospace;
+    font-size: 20px;
+    color: #dadada;
+}
+
+a {
+    text-decoration: none;
+    color: #878E93;
+}
+
+h1{
+    text-align: center;
+}
+.homepage { 
+    margin: auto;
+    width: 50%;
+}
+
+.name { 
+    width: 100%;
+}
